@@ -3,7 +3,7 @@ import Navbar from './UI/Navbar';
 
 export default function Nav() {
     return (
-        <Navbar
+        <Navbar>
             links={[
                 <Link key={1} className="nav-link text-light" to="/">
                  AboutMe
@@ -18,6 +18,6 @@ export default function Nav() {
                   Resume
                 </Link>,
             ]}
-         />
+         </Navbar>
     );
 }
